@@ -11,6 +11,7 @@
     display: flex;
     padding-top: 20px;
     margin-left: 50px;
+    width: 100%;
 }
 .nav1 li{
     list-style: none;
@@ -36,6 +37,7 @@ height: 40px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .nav2 #select{
    
@@ -112,6 +114,7 @@ list-style: none;
     flex-direction: row;
     align-items: center;
     margin-left: 60px;
+    width: 100%;
 }
    
 
