@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 .main{
-    background-color: rgb(231, 231, 231);
-    height: 100px;
+    background-color:#f7f8f8;
+    height: 130px;
 }
 .nav1{
     display: flex;
-    margin-left: 430px;
+    padding-top: 20px;
+    margin-left: 50px;
 }
 .nav1 li{
     list-style: none;
@@ -23,6 +24,11 @@
 .nav1 img{
     height: 20px;
 }
+
+.nav1 li:hover{
+    color: rgb(30, 191, 255);
+}
+
 .nav2 img{
 height: 40px;
 }
@@ -32,19 +38,20 @@ height: 40px;
     justify-content: center;
 }
 .nav2 #select{
-    background-color: white;
+   
     display: flex;
     margin-left: 20px;
     border: 2px solid black;
     border-radius: 5px;
-    width: 320px;
-    height: 42px;
+    width: 272px;
+    height: 48px;
    
     
 }
 .nav2 #select i{
-    margin-top: 10px;
+    margin-top: 12px;
     padding-left: 5px;
+    background-color: white;
 }
 
 .nav2 select{
@@ -59,8 +66,8 @@ height: 40px;
     margin-left: 20px;
     border: 2px solid black;
     border-radius: 5px;
-    width: 490px;
-    height: 42px;
+    width: 560px;
+    height: 48px;
 }
 .nav2 #input button{
     height: 100%;
@@ -81,8 +88,16 @@ height: 40px;
 list-style: none;
 }
 .nav2 #login{
-    padding-top: 10px;
-    padding-left: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 29px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    
+}
+.nav2 #login:hover{
+    border-bottom: none;
+    cursor: pointer;
 }
 
 
@@ -96,7 +111,7 @@ list-style: none;
     /* justify-content: center; */
     flex-direction: row;
     align-items: center;
-    margin-left: 390px;
+    margin-left: 60px;
 }
    
 
@@ -107,28 +122,78 @@ list-style: none;
     list-style: none;
     padding-left: 20px;
 }
+.nav3 li:hover{
+    color: rgb(30, 191, 255);
+}
+
+
+
 .main-nav3{
-background-color: antiquewhite;
+
 border-radius: 2px;
-box-shadow: 2px 2px 2px antiquewhite ;
+box-shadow: 2px 2px 2px rgb(223, 218, 212) ;
 }
 #sign{
     margin-left: 15px;
 }
 #sign .design{
-
-    height: 45px;
+margin-left: 20px;
+    height: 51px;
 }
 #sign .plus {
     height: 15px;
     position: relative;
-    bottom: 16px;
+    bottom: 0.5px;
     right: 85px;
 }
 .up{
     /* height: 15px; */
     position: relative;
-    bottom: 17.5px;
-    right: 87px;
+    /* bottom: 0.5px; */
+    right: 79px;
 
+}
+#slide{
+    margin-top: 20px;
+}
+#slide img{
+    width: 100%;
+}
+#log_cont{
+/* display: flex;
+justify-content: center; */
+position: relative;
+bottom: 300px;
+display: none;
+text-align: center;
+
+}
+
+
+#log{
+    background-color: #f7f8f8;
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    z-index: 1;
+    
+}
+#log button{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+#log img{
+  height: 100px;
+}
+#cont{
+ display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  column-gap: 10px;
 }
